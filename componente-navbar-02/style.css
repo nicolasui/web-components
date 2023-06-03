@@ -8,6 +8,7 @@
 
 body {
     text-align: center; /*Centra todos los textos*/
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar > * { /*seleccionar todos los hijos de navbar*/
@@ -15,32 +16,57 @@ body {
 }
 .navbar {
     display: block;
-    background-color: azure;
-    padding: 15px 5px;
+    background-color: #321097;
+    padding: 25px 5px;
+    box-shadow: 0px 4px 9px 2px #000;  /*sombra de caja*/
 }
 .logo {
-    background-color: blue;
-    width: 10%;
+    width: 15%;
+}
+.logo a {
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 24px;
 }
 .menu {
-    background-color: chartreuse;
-    width: 68% ;
+    width: 55% ;
 }
 .menu-item {
-    background-color: darkgoldenrod;
     display: inline-block;
+    padding: 0 15px;
+}
+.menu-item a {
+    color: #fafafa;
+    font-size: 18px;
 }
 .logs {
-    background-color: maroon;
-    width: 15%;
+    width: 25%;
 }
 .logs > * { /*seleccionar todos los hijos de logs*/
     display: inline-block;
 }
 .sign-in {
-    background-color: blueviolet;
+    padding: 0 15px;
+}
+.sign-in a {
+    color: #fafafa;
+    font-size: 18px;
 
 }
-.sign-out {
-    background-color: coral;
+.sign-up {
+    padding: 0 15px;
+}
+.sign-up a {
+    color: #fafafa;
+    font-size: 18px;
+    border: 2px solid #7a54ed;
+    border-radius: 20px;
+    padding: 10px ;
+    /*transition: propiedad que sirve para asignar tiempos y tipos de efectos 
+    a un elemento al que se le va a crear una animacion */
+    transition: 0.5s ease-in;
+}
+.sign-up a:hover {
+    color: #321097;
+    background-color: #fafafa;
 }
