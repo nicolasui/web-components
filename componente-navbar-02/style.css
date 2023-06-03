@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none; /*Quitqr puntos de la listas*/
+    text-decoration: none;
+
+}
+
+body {
+    text-align: center; /*Centra todos los textos*/
+}
+
+.navbar > * { /*seleccionar todos los hijos de navbar*/
+    display: inline-block;
+}
+.navbar {
+    display: block;
+    background-color: azure;
+    padding: 15px 5px;
+}
+.logo {
+    background-color: blue;
+    width: 10%;
+}
+.menu {
+    background-color: chartreuse;
+    width: 68% ;
+}
+.menu-item {
+    background-color: darkgoldenrod;
+    display: inline-block;
+}
+.logs {
+    background-color: maroon;
+    width: 15%;
+}
+.logs > * { /*seleccionar todos los hijos de logs*/
+    display: inline-block;
+}
+.sign-in {
+    background-color: blueviolet;
+
+}
+.sign-out {
+    background-color: coral;
+}
