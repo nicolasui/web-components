@@ -64,3 +64,43 @@ body{
     background-color: #fafafa;
 }
 
+/*Seccion hero*/
+.hero {
+    position: relative;
+}
+.hero-img {
+    width:100%;
+    height: auto;
+    opacity: 0.8
+}
+.hero-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fbfbfb;
+    text-shadow: 4px 3px 2px #2c2836;
+}
+
+.hero-button {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-button a{
+    color: #fafafa;
+    font-size: 18px;
+    border: 2px solid #f3f3f7;
+    border-radius: 20px;
+    background-color: #121313;
+    padding:  6px 20px ;
+    transition: 0.2s ease-in;
+    
+}
+
+.hero-button a:hover {
+    color: #0d0d0e;
+    background-color: #fdfdfd;
+    border: 2px solid #0d0d0e;
+}
