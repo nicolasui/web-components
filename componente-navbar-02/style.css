@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: none; /*Quitqr puntos de la listas*/
+    list-style: none; /*Quitar puntos de la listas*/
     text-decoration: none;
 
 }
@@ -59,7 +59,7 @@ body {
 .sign-up a {
     color: #fafafa;
     font-size: 18px;
-    border: 2px solid #7a54ed;
+    border: 8px solid #7a54ed;
     border-radius: 20px;
     padding: 10px ;
     /*transition: propiedad que sirve para asignar tiempos y tipos de efectos 
