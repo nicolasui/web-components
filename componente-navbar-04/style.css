@@ -60,3 +60,27 @@ body{
     background-color: #fdfdfd;
     border: 2px solid #0d0d0e;
 }
+
+img {
+    width: 100%;
+    height: auto ;
+}
+.hero{
+    position: relative;
+}
+.hero-img{
+    filter: contrast(30%);
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:60px ;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
